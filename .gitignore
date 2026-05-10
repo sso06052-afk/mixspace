@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+apps/web/.next/
+apps/web/out/
+
+# FastAPI
+apps/api/__pycache__/
+apps/api/.venv/
+apps/api/*.pyc
+apps/api/.pytest_cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+CLAUDE.local.md
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WASM (빌드 산출물, 직접 커밋 X)
+apps/web/public/wasm/
+
+# Test results
+coverage/
+playwright-report/
+test-results/
